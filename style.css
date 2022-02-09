@@ -1,0 +1,54 @@
+body{
+text-align: center;    
+}
+#welcome{
+position: absolute;
+left: 0%;
+right: 0%;
+bottom: 0%;
+top: 0%;
+width: 100%;
+height: 800px;
+background: linear-gradient(yellowgreen 30%,blue 100%);   
+}
+.profile{
+border-radius: 50%;
+width: 200px;
+margin-top: 20px;    
+} 
+
+#bio{
+padding-top: 800px;    
+}
+.line{
+width: 100px;
+height: 10px;
+background-color: black;
+margin: 10px auto;
+}
+p{
+max-width: 500px;
+margin: 10px auto;    
+}
+.menu{
+list-style: none;
+position: fixed;
+top: 0px;
+right: 30px;
+cursor: pointer;
+z-index: 999;
+}
+.Hi{
+float: left;    
+padding: 15px;
+font-size: 25px;
+color: black;
+font-family: 'Yellowtail', cursive;    
+}
+.Hi:hover{
+background-color: darkred;    
+}
+
+a{
+ text-decoration: none;   
+}
